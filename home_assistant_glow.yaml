@@ -55,6 +55,8 @@ improv_serial:
 # Enable Home Assistant API
 api:
   password: !secret esphome_api_password
+  encryption:
+    key: !secret esphome_api_encryption
   services:
     - service: reset_total_energy
       then:
