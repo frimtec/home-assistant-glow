@@ -27,7 +27,7 @@ esphome:
   comment: '${device_description}'
   project:
     name: "frimtec.home_assistant_glow"
-    version: "${project_version}.0"
+    version: "${project_version}"
 
 # Choose the right Platform
 # esp32: https://esphome.io/components/esp32.html
